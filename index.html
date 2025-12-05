@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <style>
+    .container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color:beige;
+    border-radius: 10px;
+    text-align: center;
+     border: 4px solid;
+  border-image: linear-gradient(to right, teal, purple) 1;
+   background: linear-gradient(135deg, #fff7e6, #ffe8d6);
+}
+h1 {
+    font-size: 40px;
+    border-bottom: 3px solid teal;
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+  .projects {
+    display: flex;
+    gap: 20px;
+    justify-content: right;
+  }
+
+  .card {
+    width: 30%;
+    padding: 15px;
+    background:beige;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+     background: linear-gradient(135deg, #fff7e6, #ffe8d6);
+   
+  }
+  .card:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease;
+  box-shadow: 0 0 18px rgba(0,0,0,0.3);
+  background: linear-gradient(120deg, #f6d365, #fda085);
+}
+.card a {
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+}
+
+.card a:hover {
+  color: navy;
+  text-decoration: underline;
+ 
+}
+ul{
+  font-size: medium;
+  font-family: 'Times New Roman', Times, serif;
+ 
+}
+.container2{
+   width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color:beige;
+    border-radius: 10px;
+    text-align: left;
+   background: linear-gradient(135deg, #fff7e6, #ffe8d6);
+}
+ul li {
+  margin-bottom: 10px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+h2 {
+  color: rgb(50, 50, 110);
+  font-size: 30px;
+  border-left: 5px solid teal;
+  padding-left: 10px;
+}
+h2 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+ul li::marker {
+  color: tomato;
+  font-size: 20px;
+}
+h2 {
+  color: rgb(50, 50, 110);
+  font-size: 30px;
+  border-left: 5px solid teal;
+  padding-left: 10px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+   background: linear-gradient(135deg, #a18cd1, #fbc2eb);
+  min-height: 100vh; 
+}
+
+ </style>
+</head>
+<body>
+  <div class="container"> 
+  <h1>My Portfolio</h1>
+  </div>
+  <ul>
+    <li>Hi!! My name is Rishika and I am making this portfolio.
+    I am currently learning html and css.</li>
+    <li>I like drawing,playin video games,watching cartoons,playing badminton.</li>
+  </ul>
+  <h2>My Projects</h2>
+  <div class="projects">
+  <div class="card">
+    <a href="studentinformation.html">Go to project 1</a>
+    <h2>Project 1</h2>
+    <p>This is a student informaton form</p>
+  </div>
+   <div class="card">
+    <a href="contact.html">Go to project 2</a>
+    <h2>Project 2</h2>
+    <p>This is a Contact form</p>
+   </div>
+<div class="card">
+    <a href="table.html">Go to project 3</a>
+    <h2>Project 3</h2>
+    <p>This is a Table </p>
+   </div>
+</div>
+<div class="container2" style="margin-top: 30px;">
+  <h2>What I Learned</h2>
+  <p>While making these projects, I learned:</p>
+  <ul>
+    <li>How to write HTML structure correctly</li>
+    <li>How to do hover</li>
+    <li>How to link pages using anchor tags</li>
+    <li>How to format text using headings and paragraphs</li>
+    <li>How to use div containers properly</li>
+  </ul>
+  <h2>Contact Me</h2>
+  <p>Email: rishikajindal34.2014@gmail.com</p>
+  <p>Thank you for visiting my portfolio! 😊</p>
+</div>
+<footer style="margin-top: 40px; background-color:beige; color: black; text-align: center; padding: 10px;">
+  <p>© 2025 My Portfolio - Created By Me</p>
+</footer>
+
+</body>
+</html>
